@@ -3,7 +3,7 @@
 <p align="center"><img src="assets/hero.png" height="25%" width="100%"></p>
 
 > [!NOTE]
-> The main repository for the [Emulator is here.](https://github.com/james-gould/azure-keyvault-emulator)
+> The main repository for the [Azure Key Vault Emulator is here.](https://github.com/james-gould/azure-keyvault-emulator)
 
 If you want to get going with the Emulator quickly these samples will show you a variety of setups and scripts you can spin up in seconds in your development environment.
 
