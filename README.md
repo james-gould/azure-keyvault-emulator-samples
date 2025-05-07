@@ -5,7 +5,7 @@
 > [!NOTE]
 > The main repository for the [Azure Key Vault Emulator is here.](https://github.com/james-gould/azure-keyvault-emulator)
 
-If you want to get going with the Emulator quickly these samples will show you a variety of setups and scripts you can spin up in seconds in your development environment.
+If you want to get going with the Emulator quickly these samples will show you a variety of applications and scripts you can run in your development environment.
 
 ## Running a sample
 
