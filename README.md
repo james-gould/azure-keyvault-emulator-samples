@@ -25,6 +25,9 @@ The Emulator has direct support for .NET Aspire and can override an existing `Az
 
 ### Docker
 
+> [!CAUTION]
+> These scripts are under active development, if they're not available please [read these docs](https://github.com/james-gould/azure-keyvault-emulator/blob/development/docs/CONFIG.md#local-docker) which will detail how to get up and running.
+
 Without Aspire you need to directly configure the container on your local machine. To make this easier scripts are available for major OS types.
 
 - [Linux](scripts/linux.sh)
