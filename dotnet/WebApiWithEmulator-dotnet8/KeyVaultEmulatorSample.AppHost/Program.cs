@@ -9,7 +9,7 @@ var options = new KeyVaultEmulatorOptions
     ShouldGenerateCertificates = true, // Should generate SSL certificates for you to install
     LoadCertificatesIntoTrustStore = true, // Install the SSL certificates automatically into the user trust store.
     Lifetime = ContainerLifetime.Persistent, // Prevent the container shutting down between sessions,
-    ForceCleanupOnShutdown = true // Unstable, removes all local files from the LocalCertificatePath.
+    ForceCleanupOnShutdown = false // Unstable, removes all local files from the LocalCertificatePath.
 };
 
 // Redirect existing resource to the emulator:
