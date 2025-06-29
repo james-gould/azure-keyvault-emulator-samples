@@ -25,13 +25,12 @@ The Emulator has direct support for .NET Aspire and can override an existing `Az
 
 ### Docker
 
-> [!CAUTION]
-> These scripts are under active development, if they're not available please [read these docs](https://github.com/james-gould/azure-keyvault-emulator/blob/development/docs/CONFIG.md#local-docker) which will detail how to get up and running.
-
 Without Aspire you need to directly configure the container on your local machine. To make this easier scripts are available for major OS types.
 
-- [Linux](scripts/linux.sh)
-- [MacOS](scripts/macos.sh)
-- [Windows (WSL2 required)](scripts/windows.ps1)
+It's highly recommended that you run the fully automated script, which supports all operating systems:
 
-Run your script of choice, interact when prompted and then set your `vaultUri` to `https://localhost:4997` in your application!
+```
+bash <(curl -fsSL https://github.com/james-gould/azure-keyvault-emulator/blob/master/docs/setup.sh)
+```
+
+If you wish to manually configure them, [documentation is available here.](https://github.com/james-gould/azure-keyvault-emulator/tree/master/docs/CertificateUtilities)
