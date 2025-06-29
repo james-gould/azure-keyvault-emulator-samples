@@ -22,6 +22,7 @@ The Emulator has direct support for .NET Aspire and can override an existing `Az
 
 - [.NET 8 using Aspire.](dotnet/WebApiWithEmulator-dotnet8/)
 - [.NET 9 using Aspire.](dotnet/WebApiWithEmulator-dotnet9/)
+- [TestContainers module for .NET](dotnet/TestContainers.NET/)
 
 ### Docker
 
