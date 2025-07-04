@@ -19,6 +19,7 @@ var keyVault = builder
     .RunAsEmulator(/*options*/);
 
 // Or directly create it without an existing Azure tenancy
+
 //var keyVault = builder.AddAzureKeyVaultEmulator("keyvault"/*, options*/);
 
 // Reference as usual!
